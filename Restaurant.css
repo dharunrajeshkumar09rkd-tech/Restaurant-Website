@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "MyFont";
+  src: url(Fonts/fonnts.com-Madre_Script.otf) format(opentype);
+}
+.ad {
+  font-family: sans-serif;
+  border: solid #f3f99a;
+  height: 60px;
+  background-color: #f3f99a;
+  color: #e00307;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+}
+#main {
+  margin-top: 60px;
+  font-family: "MyFont";
+  font-size: 45px;
+  font-weight: 2000;
+  color: #e00307;
+  text-shadow:
+    0.5px 0 0 currentColor,
+    -0.5px 0 0 currentColor;
+}
+.logo {
+  display: flex;
+  margin-left: 50px;
+  flex-direction: column;
+  line-height: 2px;
+}
+#light {
+  margin-left: 45px;
+  font-weight: lighter;
+  color: #e73247;
+  font-family: sans-serif;
+}
+.tabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#tab {
+  margin-right: 60px;
+  color: #e73247;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 200;
+}
+.hero {
+  position: relative;
+  width: 100%;
+}
+.bg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+.main-title {
+  font-family: "MyFont";
+  font-size: 200px;
+  color: #f9fccc;
+  font-weight: 900;
+  text-transform: none;
+  text-shadow:
+    1px 0 0 #ffffff,
+    -1px 0 0 #ffffff,
+    5px 5px 10px rgba(0, 0, 0, 0.6);
+  margin-bottom: 0px;
+}
+.hero-cuisine-title {
+  letter-spacing: 5px;
+  color: #f9fccc;
+  font-family: sans-serif;
+  font-size: 40px;
+  line-height: none;
+  margin-top: -25px;
+  font-weight: 400;
+  text-shadow:
+    1px 0 0 #ffffff,
+    -1px 0 0 #ffffff,
+    5px 5px 10px rgba(0, 0, 0, 0.6);
+}
+.hero-buttons {
+  position: absolute;
+  top: 72%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+.btn-outline {
+  text-decoration: none;
+  font-family: sans-serif;
+  margin-right: 20px;
+  border: solid #f9fccc;
+  border-radius: 20px;
+  color: #f9fccc;
+  padding: 10px;
+  font-size: 25px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.foot{
+    font-family: sans-serif;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+    color: #f9fccc;
+    border: solid #e00000;
+    background-color: #e00000;
+    height: 60px;
+}
+.mail{
+    text-decoration: none;
+    color: #f9fccc;
+}
+#tab:hover{
+    color: rgb(128, 35, 35);
+}
+.btn-outline:hover{
+    background-color: #e00000;
+    border: #e00000;
+}
+

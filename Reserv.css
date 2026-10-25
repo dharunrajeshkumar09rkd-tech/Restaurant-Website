@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "MyFont";
+  src: url(Fonts/fonnts.com-Madre_Script.otf) format(opentype);
+}
+.ad {
+  font-family: sans-serif;
+  border: solid #f3f99a;
+  height: 60px;
+  background-color: #f3f99a;
+  color: #e00307;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+}
+#main {
+  margin-top: 60px;
+  font-family: "MyFont";
+  font-size: 45px;
+  font-weight: 2000;
+  color: #e00307;
+  text-shadow:
+    0.5px 0 0 currentColor,
+    -0.5px 0 0 currentColor;
+}
+.logo {
+  display: flex;
+  margin-left: 50px;
+  flex-direction: column;
+  line-height: 2px;
+}
+#light {
+  margin-left: 45px;
+  font-weight: lighter;
+  color: #e73247;
+  font-family: sans-serif;
+}
+.tabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#tab {
+  margin-right: 60px;
+  color: #e73247;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 200;
+}
+.res{
+    position: relative;
+    width: 100%;
+}
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+form{
+    border: solid #e00307;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  color: #f3f99a;
+font-family: sans-serif;
+ 
+  width: 300px;
+  margin: 50px auto;
+  padding: 50px;
+  border-radius: 10px;
+  background-color: #e00307;
+  box-shadow: 0 0 10px gray;
+}
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+button {
+  background-color: #f3f99a;
+  color: #e00307;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  margin-top: 10px;
+  transition: 0.3s;
+  padding: 14px 40px;
+  font-size: 16px;
+  font-weight: bold; 
+}
+button:hover {
+  background: #9ea265;
+}
+.formhead{
+    font-family: "MyFont";
+    text-align: center;
+}
